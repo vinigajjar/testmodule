@@ -1,9 +1,9 @@
 package calc
 
 func Add(i ... int)int{
-	sum := 0
+	summ := 0
 	for _,v := range i {
-		sum = sum + v
+		summ = summ + v
 	}
-	return sum
+	return summ
 }
