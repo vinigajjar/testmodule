@@ -1,7 +1,12 @@
 package calc
 
-func Add(i ... int)int, err{
+import "errors"
+
+func Add(i ... int) (int, error){
 	sum := 0
+	if len(i) < 2 {
+		errors.New("Less number of arguments passed")
+	}
 	for _,v := range i {
 		sum = sum + v
 	}
