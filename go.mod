@@ -1,3 +1,3 @@
-module github.com/vinigajjar/testmodule/v2
+module github.com/vinigajjar/testmodule
 
 go 1.12
